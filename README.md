@@ -1,33 +1,42 @@
-# Programming Jokes Source Code
+# programming-jokes.dk
 
-![Programming Jokes](/public/images/preview.png)
+A simple website for sharing and browsing programming jokes.
 
-This repository contains the source code for programmingjokes.dk. The website is developed using Vue.js and stores jokes in a Firebase database.
+## What it does
 
-## Technologies and Frameworks
+- View random programming jokes
+- Submit your own jokes
+- All jokes stored in Firebase database
+- Contributions welcome!
 
-- Vue.js
-- Firebase
+## Built with
 
-## Project setup
-```
+- Vue.js 3
+- Firebase Realtime Database
+- Vue CLI
+
+## Running locally
+
+```bash
+# Install dependencies
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
+# Run development server
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+Open http://localhost:8080
+
+## Building for production
+
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## View online
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Visit [programming-jokes.dk](https://programming-jokes.dk)
+
+## Contributing
+
+Feel free to submit jokes! The website is open for everyone to contribute programming humor.
