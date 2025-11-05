@@ -14,14 +14,14 @@
 <script></script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: "Jost", sans-serif;
+  font-family: "Lora", serif;
 }
 
 body {
@@ -66,7 +66,7 @@ h2 {
 button {
   font: inherit;
   cursor: pointer;
-  border: 1px solid #928281;
+  border: 0.5rem solid #928281;
   border-radius: 10px;
   background-color: #928281;
   color: white;
